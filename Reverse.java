@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Reverse {
+    public static void main(String [] args){
+        ArrayList<Integer> list = new ArrayList<>();
+        
+        for(int i=1 ; i<=5 ; i++){
+           int Element = i*1;
+           list.add(Element);
+           System.out.print(Element + " ");
+        }
+
+        System.out.println();
+
+        // Reverse order
+
+        for(int i=list.size()-1 ; i>=0 ; i--){
+            System.out.print(list.get(i) + " ");
+        }
+        System.out.println();
+
+    }
+   
+}
